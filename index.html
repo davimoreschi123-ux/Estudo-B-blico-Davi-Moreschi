@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Landing - Projeto Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+ <style>
+    .btn-brand {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #2E7382;
+      --bs-btn-border-color: #2E7382;
+      --bs-btn-hover-bg: #2E7382;
+      --bs-btn-hover-border-color: #2E7382;
+      --bs-btn-focus-shadow-rgb: 14,165,233;
+      border-radius: .5rem;
+    }
+    .hero {
+      background: linear-gradient(135deg, #423428, #82552E);
+      color: #fff;
+    }
+    .btn-dark {
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  transform: scale(1.05);
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menu principal">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+    <img src="/img/logo-bible.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+      Bible
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+            aria-controls="navMain" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navMain" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="index2.html">Mapas</a></li>
+        <li class="nav-item"><a class="nav-link" href="index3.html">Comentários</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+ <h1 class="display-5 fw-bold" data-aos="fade-up"></h1>
+ <p class="lead my-3" data-aos="fade-up" data-aos-delay="200"></p>
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Descubra mais sobre a palavra de Deus</h1>
+    <p class="lead my-3">Se aprofunde nas diversas traduções da Bíblia, com recomendação da melhor para o seu nível.</p>
+  </div>
+</header>
+
+<div class= "alert alert-secondary container my-3" role="alert">
+  <b>RECOMENDAÇÕES!!!</b>
+</div>
+
+<main class="container my-5">
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Bíblia Para Iniciantes</h5>
+          <p class="card-text">Leia a Bíblia online na traduçao que simplifica as palavras para melhor entendimento.</p>
+          <a href="https://www.bible.com/pt/bible/211/GEN.1.NTLH" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Bíblia Padrão</h5>
+          <p class="card-text">Leia a Bíblia online na traduçao mais utilizada pelos leitores tradicionais.</p>
+          <a href="https://www.bible.com/pt/bible/4360/GEN.1.NVI" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Bíblia Rústica</h5>
+          <p class="card-text">Leia a Bíblia online na traduçao mais fiel ao texto original, traduzida diretamente do hebraico e grego.</p>
+          <a href="https://www.sefaria.org/Genesis.1?lang=bi&aliyot=0" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class= "alert alert-secondary container my-3" role="alert">
+  <b>OUTRAS...</b>
+</div>
+
+<main class="container my-5">
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">NVT</h5>
+          <p class="card-text">Leia a Bíblia online na Nova Versão Transformadora.</p>
+          <a href="https://www.bible.com/pt/bible/1930/GEN.1.NVT" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">ARA</h5>
+          <p class="card-text">Leia a Bíblia online na Almeida Revista e Atualizada.</p>
+          <a href="https://www.bible.com/pt/bible/1608/GEN.1.ARA" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">AVM</h5>
+          <p class="card-text">Leia a Bíblia online na versão católica Bíblia Ave Maria.</p>
+          <a href="https://www.bible.com/pt/bible/4542/GEN.1.AVM" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="border-top py-4">
+  <div class="container text-center text-muted">
+    <small>&copy; 2026 DaviMoreschiInc. Todos os direitos reservados.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<script>
+  document.querySelectorAll("a").forEach(link => {
+    // só links internos
+    if (link.hostname === window.location.hostname) {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const url = this.href;
+
+        document.body.classList.add("fade-out");
+
+        setTimeout(() => {
+          window.location = url;
+        }, 400); // tempo igual ao CSS
+      });
+    }
+  });
+</script>
+</body>
+</html>

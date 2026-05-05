@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Landing - Projeto Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .btn-brand {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #2E7382;
+      --bs-btn-border-color: #2E7382;
+      --bs-btn-hover-bg: #2E7382;
+      --bs-btn-hover-border-color: #2E7382;
+      --bs-btn-focus-shadow-rgb: 14,165,233;
+      border-radius: .5rem;
+    }
+    .hero {
+      background: linear-gradient(135deg, #423428, #82552E);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menu principal">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+    <img src="/img/logo-bible.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+      Bible
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+            aria-controls="navMain" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navMain" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="index2.html">Mapas</a></li>
+        <li class="nav-item"><a class="nav-link active" href="index3.html">Comentários</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Descubra mais sobre a palavra de Deus</h1>
+    <p class="lead my-3">Leia a visão e o entendimento de versículos bíblicos desenvolida por diversos estudiosos.</p>
+  </div>
+</header>
+
+<main class="container my-5">
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Enduring Word</h5>
+          <p class="card-text">Comentário Bíblico de David Guzik, comentário verso por verso, muito utilizado para ensino bíblico, disponível em português..</p>
+          <a href="https://pt.enduringword.com/genesis-1/" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">The Bible Says</h5>
+          <p class="card-text">Comentário Bíblico de The Bible Says,  oferece comentários de fácil navegação, cobrindo cada versículo, ideal para estudo pessoal ou em grupo .</p>
+          <a href="https://thebiblesays.com/pt/commentary/gen+1:1" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Crente que Sabe</h5>
+          <p class="card-text">Compilação de diversos estudos, análises teológicas e devocionais, com foco em livros específicos como Salmos e Lamentações.</p>
+          <a href="https://bibliotecabiblica.blogspot.com/2015/08/significado-de-genesis-1.html" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="border-top py-4">
+  <div class="container text-center text-muted">
+    <small>&copy; 2026 DaviMoreschiInc. Todos os direitos reservados.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

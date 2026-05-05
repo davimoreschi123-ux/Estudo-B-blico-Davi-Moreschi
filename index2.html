@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Landing - Projeto Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .btn-brand {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #2E7382;
+      --bs-btn-border-color: #2E7382;
+      --bs-btn-hover-bg: #2E7382;
+      --bs-btn-hover-border-color: #2E7382;
+      --bs-btn-focus-shadow-rgb: 14,165,233;
+      border-radius: .5rem;
+    }
+    .hero {
+      background: linear-gradient(135deg, #423428, #82552E);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menu principal">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+    <img src="/img/logo-bible.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+      Bible
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+            aria-controls="navMain" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navMain" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Mapas</a></li>
+        <li class="nav-item"><a class="nav-link" href="index3.html">Comentários</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Descubra mais sobre a palavra de Deus</h1>
+    <p class="lead my-3">Veja mapas de eventos históricos incriveis envolvendo personagens da Bíblia.</p>
+  </div>
+</header>
+
+<main class="container my-5">
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Mapa das Viagens de Paulo</h5>
+          <p class="card-text">Explore os mapas dos lugares que o apóstolo Paulo viajou e as cidades que escreveu cartas.</p>
+          <a href="https://www.a12.com/source/files/originals/As_viagens_de_Paulo-428650.jpg" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Mapa da vida de Jesus</h5>
+          <p class="card-text">Explore os mapas dos lugares que Jesus andou, pregou e operou milagres.</p>
+          <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggFclcvYXIa8WipPbk2hOeHGgqhe1E5oZ8s4EMtHgisq01WhHOTz9Us4pdxTU-A7Q0efuxAGpCjL0YxB2stfN6naB07SYc2Y3IB78jyZ2FLWQx1ePCSTru2aZ-UYvnn2LuCGxSqWmfie0/s1600/vida+de+jesus.jpg" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Mapa das Tribos de Israel</h5>
+          <p class="card-text">Explore os mapas das cidades em que as tribos de Israel viviam.</p>
+          <a href="https://upload.wikimedia.org/wikipedia/commons/d/dd/12_Tribes_of_Israel_Map-pt.svg" class="btn btn-dark">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="border-top py-4">
+  <div class="container text-center text-muted">
+    <small>&copy; 2026 DaviMoreschiInc. Todos os direitos reservados.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
